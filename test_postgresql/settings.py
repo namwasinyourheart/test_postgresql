@@ -25,7 +25,9 @@ SECRET_KEY = "django-insecure-0z5b=zr!#f-$7by-g&skjqquqw@uhg318(_egnq0gdbhugz%(_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'test-postgresql-zhm1.onrender.com'
+]
 
 
 # Application definition
